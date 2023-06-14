@@ -29,7 +29,6 @@ const expected4 = false;
  * @returns {boolean} Whether the parenthesis are valid.
  */
 function parensValid(str) {
-    str = str.split("");
     let opening = 0;
     for (let i = 0; i < str.length; i++) {
         if (str[i] == '(') {
@@ -78,8 +77,8 @@ const expected3_1 = false;
  * @param {string} str
  * @returns {boolean} Whether the given strings braces are valid.
  */
+//Switch statements better way
 function bracesValid(str) {
-    str = str.split("");
     let parenthesis = 0, braces = 0, brackets = 0;
     for (let i = 0; i < str.length; i++) {
         if (str[i] == '(') {
