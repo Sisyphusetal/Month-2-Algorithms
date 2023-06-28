@@ -60,6 +60,7 @@ function binarySearch(sortedNums, searchNum) {
             //firstNum becomes midNum-1
         } else {
             lastNum = midNum - 1;
+            
     }
 }
     //then return false
